@@ -38,6 +38,7 @@
 * 구현 기능은 '포인트 데이터 조회' type A\~G 까지 모든 타입에 결과가 만족해야 됩니다.
 
 ## 서버 호출 응답 정리
+
 |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- |
 | 호출 도메인 | @cols=5:[https://test-menu.payco.kr/](https://alpha-menu.orderpick.kr/) |
