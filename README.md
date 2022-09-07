@@ -39,3 +39,44 @@
 
 ## 서버 호출 응답 정리
 
+|  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 호출 도메인 <td colspan=5>[https://test-menu.payco.kr/](https://alpha-menu.orderpick.kr/) |
+| <td colspan=6>공통|
+| Header  <td colspan=2>Content-Type <td colspan=3>application/json |
+| status | Integer |  | Y <td colspan=2>0 이 아닌 결과는 실패 |
+| message | String |  | Y <td colspan=2>조회 결과 메시지 |
+| result | Object |  | Y <td colspan=2>호출 결과 |
+| <td colspan=6> |
+| API 명 <td colspan=5>**날짜 데이터 조회** |
+| Method <td colspan=5>GET |
+| URI <td colspan=5>/test/api/work/time |
+| <td colspan=6>RequestBody |
+| Parameter | Type | length | Required <td colspan=2>Description |
+|  |  |  |  <td colspan=2> |
+| <td colspan=6>ResponseBody |
+| id | String |  | <td colspan=2>날짜<br>YYYYMMDD |
+| value | String |  |  <td colspan=2>날짜 표시 데이터 |
+| date | String |  |  <td colspan=2>YYYYMMDD |
+| ㄴ childsAm | Array |  |  <td colspan=2>날짜의 시간 데이터 |
+| <td colspan=6>childsAm Array |
+| id |  |  |  <td colspan=2>시간 hh |
+| value |  |  |  <td colspan=2>시간 표시 데이터 |
+| date |  |  |  <td colspan=2>YYYYMMDDhh |
+| ㄴ childs | Array |  |  <td colspan=2>시간의 분 데이터 |
+| <td colspan=6>childs Array |
+| id |  |  |  <td colspan=2>분 mm |
+| value |  |  |  <td colspan=2>분 표시 데이터 |
+| date |  |  |  <td colspan=2>YYYYMMDDhhmm |
+| API 명 <td colspan=5>**포인트 데이터 조회** |
+| Method <td colspan=5>POST |
+| URI <td colspan=5>/test/api/work/point |
+| <td colspan=6>RequestBody |
+| Parameter | Type | length | Required <td colspan=2>Description |
+| type | String | 1 |  <td colspan=2>응답 타입<br>A,B,C,D,E,F,G |
+| <td colspan=6>ResponseBody |
+| orderAmt |  |  |  <td colspan=2>주문 금액 |
+| myPoint |  |  |  <td colspan=2>잔여포인트(포인트 잔액) |
+| useMinPoint |  |  |  <td colspan=2>사용가능최소적립포인트<br>잔여포인트가 useMinPoint 보다 적은 경우에는 포인트 사용이 불가합니다. |
+| useMaxPoint |  |  |  <td colspan=2>사용가능최대적립포인트<br>잔여포인트가 useMinPoint 보다 많아 경우에 useMinPoint 보다는 많이 사용할수 없습니다. |
+| useUnitPoint |  |  |  <td colspan=2>적립포인트사용단위<br>사용가능한 포인트 단위입니다. 예를들어 useUnitPoint=10 인테 포인트를 105 로 사용은 불가합니다. |
