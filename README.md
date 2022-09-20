@@ -39,3 +39,4 @@
 
 ## 서버 호출 응답 정리
 
+![image.png](https://api-storage.cloud.toast.com/v1/AUTH_78cecc1b106c4d74803ffcd6d6096af0/paycoorder_contents/t_review/homework-3.png)
