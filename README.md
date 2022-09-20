@@ -19,7 +19,7 @@
 
 ## **work-1. mobileSelect.js 활용해 사용자가 원하는 날짜, 시간을 선택하는 기능을 작성합니다.**
 
-![2022-08-25 16_17_08.709.png](/wikis/2607232640735065411/files/3347959246155336230)
+![2022-08-25 16_17_08.709.png](https://api-storage.cloud.toast.com/v1/AUTH_78cecc1b106c4d74803ffcd6d6096af0/paycoorder_contents/t_review/homework-1.png)
 
 * mobileSelect.js : [https://github.com/onlyhom/mobile-select](https://github.com/onlyhom/mobile-select)
 * 아래 '날짜 데이터 조회' api 문서를 활용해 데이터를 조회후 날짜, 시간 위 그림과 같이 생성합니다.
@@ -29,7 +29,7 @@
 
 ## **work-**2\. 총 결제 금액과 포인트 사용 금액을 계산하는 기능을 작성합니다\.
 
-![image.png](/wikis/2607232640735065411/files/3355890281057837054)
+![image.png](https://api-storage.cloud.toast.com/v1/AUTH_78cecc1b106c4d74803ffcd6d6096af0/paycoorder_contents/t_review/homework-2.png)
 
 * '포인트 데이터 조회' api 문서를 활용해 case 1\~7 호출 후 응답에 맞는 포인트 사용 금액 계산, 총 결제 금액이 계산 되어야 합니다.
 * 사용자가 입력하는 포인트를 응답값 스펙에 맞게 계산하고 사용 포인트에 표시 합니다.
