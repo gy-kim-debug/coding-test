@@ -1,0 +1,41 @@
+#work1>ul, #work2>ul {
+  border: 2px solid black;
+  padding: 5px 10px;
+}
+#work1>ul {
+  text-align: center;
+}
+#work1>ul>li{ 
+  margin-bottom: 10px;
+}
+#work1>ul>li:first-child { 
+  display: flex;
+  justify-content: center;
+}
+#work1>ul>li:last-child { 
+  display: flex;
+  justify-content: center;
+}
+#date-select-btn {
+  cursor: pointer;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 200px;
+}
+#time-select-btn{
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 200px;
+}
+#check-date-btn{
+  cursor: pointer;
+  display: inline-block;  
+  border: 1px solid black;
+  width: 200px;
+  border-radius: 5px;
+  padding: 5px;
+}

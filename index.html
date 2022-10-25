@@ -5,12 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    <!--mobileSelect.js import-->
-    <script src="../js/mobileSelect.js"></script>
 
-    <!-- test p tag -->
-    <p id="test">test</p>
+</head>
+<body>    
+    <h1>work-1</h1>
+    <div id="work1">
+        <ul>
+            <li>
+                <div id="date-select-btn">날짜 선택</div>
+                <div id="time-select-btn">시간 선택</div>
+            </li>
+            <li>
+                <div id="check-date-btn">
+                    날짜 확인
+                </div>
+            </li>
+            <li>
+                <div>
+                    <span>선택 날짜 데이터 확인:</span>
+                </div>
+                <div>
+                    <span id="select-date-span"></span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    <h1>work-2</h1>
+    <div id="work2">
+        <ul>
+            <li>
+                <select id="type-select">
+                    <option value="A">type A</option>
+                    <option value="B">type B</option>
+                    <option value="C">type C</option>
+                    <option value="D">type D</option>
+                </select> 
+                <button id="type-check-btn">조회</button>
+            </li>
+            <li>
+                <span>포인트 잔액: <span id="myPoint-span">0</span>P</span>
+            </li>
+            <li>
+                <input id="myPoint-use-input" type="text">
+                <button id="myPoint-use-btn">사용</button>
+            </li>
+            <li>
+                <ul>
+                    <li>
+                        <span>주문 금액: <span id="order-cost-span">0</span>원</span>
+                    </li>
+                    <li>
+                        <span>사용 포인트: <span id="use-point-span">0</span>원</span>
+                    </li>
+                    <li>
+                        <span>총 결제 금액 <span id="total-order-amt-span">0</span>원</span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- css import -->
+    <link rel="stylesheet" type="text/css" href="./css/common.css" />
+    <link rel="stylesheet" type="text/css" href="./css/mobileSelect.css" />
+    <link rel="stylesheet" type="text/css" href="./css/work.css" />
+
+    <!--mobileSelect.js import-->
+    <script src="./js/mobileSelect.js"></script>
+    <!-- work1.js import -->
+    <script src="./js/work1.js"></script>
+    <!-- work2.js import -->
+    <script src="./js/work2.js"></script>
+
+</script>
 </body>
 </html>

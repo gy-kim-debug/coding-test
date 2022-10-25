@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 20px;
+}
+body>div {
+    padding: 20px;
+}
+li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+h1 {
+    padding:0 20px;
+}
+
